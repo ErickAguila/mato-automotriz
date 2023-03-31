@@ -1,0 +1,6 @@
+<lightgallery [settings]="settings" [onInit]="onInit" class="flex flex-wrap galery">
+    <a *ngFor="let item of items" [attr.data-lg-size]="item.size" className="gallery-item" class="img-mato"
+        [attr.href]="item.src">
+        <img className="img-responsive" src="{{ item.thumb }}" width="250" />
+    </a>
+</lightgallery>
