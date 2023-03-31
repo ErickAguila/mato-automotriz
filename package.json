@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "gp:deploy": "ng deploy --base-href=https://erickaguila.github.io/mato-automotriz"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +22,7 @@
     "@fortawesome/fontawesome-free": "5.15.3",
     "@popperjs/core": "^2.11.7",
     "@tailwindcss/forms": "0.2.1",
+    "angular-cli-ghpages": "^1.0.5",
     "chart.js": "2.9.4",
     "lightgallery": "^2.7.1",
     "rxjs": "~7.8.0",
